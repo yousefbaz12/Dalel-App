@@ -4,17 +4,24 @@
 The Dalele application is designed as a tourism recommendation system leveraging machine learning to suggest places of interest to users based on various factors, including textual reviews, geolocation, and categorical attributes. This recommender system integrates multiple data sources, including attraction details, user reviews, and geolocation information, to provide personalized recommendations for tourists exploring Cairo, Egypt.
 
 Features
-Multi-Source Data Integration: Combines data from different sources, including attraction places, user reviews, and geographical locations.
-Geohash-Based Recommendations: Utilizes geohash encoding to represent locations, allowing recommendations to consider spatial proximity.
-Cosine Similarity for Recommendations: Implements cosine similarity to find similarity in text-based features, providing recommendations based on user reviews and other textual data.
-One-Hot Encoding for Categorical Data: Encodes categorical data, such as attraction categories, for inclusion in the recommendation model.
-TF-IDF Vectorization: Uses Term Frequency-Inverse Document Frequency to vectorize textual data, extracting meaningful information from reviews.
+#### Multi-Source Data Integration:
+Combines data from different sources, including attraction places, user reviews, and geographical locations.
+#### Geohash-Based Recommendations: 
+Utilizes geohash encoding to represent locations, allowing recommendations to consider spatial proximity.
+#### Cosine Similarity for Recommendations:
+Implements cosine similarity to find similarity in text-based features, providing recommendations based on user reviews and other textual data.
+#### One-Hot Encoding for Categorical Data:
+Encodes categorical data, such as attraction categories, for inclusion in the recommendation model.
+#### TF-IDF Vectorization:
+Uses Term Frequency-Inverse Document Frequency to vectorize textual data, extracting meaningful information from reviews.
 Hybrid Approach to Recommendations: Combines multiple features, including text data, geolocation, categorical data, and numerical attributes like latitude, longitude, and ratings, to create a comprehensive recommendation system.
-Model Persistence: Employs joblib to save the trained model, allowing for easy deployment and reusability.
+Model Persistence: 
+Employs joblib to save the trained model, allowing for easy deployment and reusability.
 Data Preparation
 The project starts by reading and combining three data sources:
 
-attractions.csv: Contains details of various tourist attractions in Cairo.
+#### attractions.csv:
+Contains details of various tourist attractions in Cairo.
 reviews.csv: Includes reviews of these attractions, providing a rich source of textual data.
 loc.csv: Contains geolocation information for each attraction.
 These datasets are concatenated into a single dataframe for further processing.
