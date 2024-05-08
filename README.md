@@ -1,7 +1,4 @@
-Dalel App
-
 Dalele Application for Tourism: Recommender System Project Using Machine Learning
-
 Project Overview
 The Dalele application is designed as a tourism recommendation system leveraging machine learning to suggest places of interest to users based on various factors, including textual reviews, geolocation, and categorical attributes. This recommender system integrates multiple data sources, including attraction details, user reviews, and geolocation information, to provide personalized recommendations for tourists exploring Cairo, Egypt.
 
@@ -25,6 +22,6 @@ Feature Engineering
 Geohash Encoding: Adds a new column to the data, containing the geohash code for each attraction based on latitude and longitude.
 One-Hot Encoding for Categorical Features: Transforms categorical attributes, such as "Category," into a format suitable for machine learning.
 TF-IDF Vectorization for Text Data: Converts reviews into a TF-IDF matrix, extracting key information from textual content.
-Cosine Similarity Calculation: Combines TF-IDF matrix with numerical and categorical features to create a comprehensive feature set for calculating cosine similarity.
+Cosine Similarity Calculation: Combines the TF-IDF matrix with numerical and categorical features to create a comprehensive feature set for calculating cosine similarity.
 Recommendation System Logic
-The recommendation system uses cosine similarity to determine the similarity between different attractions. It takes into account both textual reviews and spatial proximity (via geohash). The system then ranks the similarity scores and selects the top recommendations for a given place.
+The recommendation system uses cosine similarity to determine the similarity between different attractions. It considers both textual reviews and spatial proximity (via geohash). The system then ranks the similarity scores and selects the top recommendations for a given place.
