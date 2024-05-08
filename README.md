@@ -1,5 +1,6 @@
-Dalele Application for Tourism: Recommender System Project Using Machine Learning
-Project Overview
+# Dalele Application for Tourism: Recommender System Project Using Machine Learning
+
+### Project Overview
 The Dalele application is designed as a tourism recommendation system leveraging machine learning to suggest places of interest to users based on various factors, including textual reviews, geolocation, and categorical attributes. This recommender system integrates multiple data sources, including attraction details, user reviews, and geolocation information, to provide personalized recommendations for tourists exploring Cairo, Egypt.
 
 Features
